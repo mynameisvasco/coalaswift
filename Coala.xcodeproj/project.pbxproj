@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F7DCCAF82FB74E091362072 /* Pods_Coala.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFA2847ED3BBAAECA214E16 /* Pods_Coala.framework */; };
+		4F849B59A64FFEE72A7232D9 /* Pods_Coala_CoalaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05316AC89D647E259C83D264 /* Pods_Coala_CoalaTests.framework */; };
 		610036691DE5D2DE00F747D3 /* ObserverNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610036681DE5D2DE00F747D3 /* ObserverNotification.swift */; };
 		6104FAF81D95756F000E40EE /* CoAPRegistryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6104FAF71D95756F000E40EE /* CoAPRegistryCode.swift */; };
 		61051F961FD555FF00DA269D /* Coala+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61051F951FD555FF00DA269D /* Coala+Version.swift */; };
@@ -93,6 +95,8 @@
 		8B997ACB21BE6C5A005BE718 /* Coala+Ip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B997ACA21BE6C5A005BE718 /* Coala+Ip.swift */; };
 		8BD3EE0B2255B2E800E3395B /* SecurityLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3EE0A2255B2E800E3395B /* SecurityLayer.swift */; };
 		8BF71932224A2C4400B2CFD7 /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF71931224A2C4400B2CFD7 /* Synchronized.swift */; };
+		A3B71CCB6D6E1C7A7BD54BBA /* Pods_Coala_CoalaFunctionalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C509FF1777CF1B0035B1CE3 /* Pods_Coala_CoalaFunctionalTests.framework */; };
+		F95EA7E546B647A37D2FFB01 /* Pods_Coala_CoalaIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DEA3167FE5683E1306E669 /* Pods_Coala_CoalaIntegrationTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +131,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05316AC89D647E259C83D264 /* Pods_Coala_CoalaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coala_CoalaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F17EA1C857E46A761888BC /* Pods-Coala-CoalaFunctionalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coala-CoalaFunctionalTests.debug.xcconfig"; path = "Target Support Files/Pods-Coala-CoalaFunctionalTests/Pods-Coala-CoalaFunctionalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C509FF1777CF1B0035B1CE3 /* Pods_Coala_CoalaFunctionalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coala_CoalaFunctionalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DEA3167FE5683E1306E669 /* Pods_Coala_CoalaIntegrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coala_CoalaIntegrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		610036681DE5D2DE00F747D3 /* ObserverNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserverNotification.swift; sourceTree = "<group>"; };
 		6104FAF71D95756F000E40EE /* CoAPRegistryCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoAPRegistryCode.swift; sourceTree = "<group>"; };
 		61051F951FD555FF00DA269D /* Coala+Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coala+Version.swift"; sourceTree = "<group>"; };
@@ -215,9 +223,17 @@
 		65D04F2D256CD50600A7293A /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		65D04F2F256CD50700A7293A /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		65D04F6C256CD86B00A7293A /* CoAPTcpSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoAPTcpSerializer.swift; sourceTree = "<group>"; };
+		66A50D9174F4B3E99A241D19 /* Pods-Coala-CoalaIntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coala-CoalaIntegrationTests.debug.xcconfig"; path = "Target Support Files/Pods-Coala-CoalaIntegrationTests/Pods-Coala-CoalaIntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66E1F6D788D7F195AC1AFCA1 /* Pods-Coala-CoalaFunctionalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coala-CoalaFunctionalTests.release.xcconfig"; path = "Target Support Files/Pods-Coala-CoalaFunctionalTests/Pods-Coala-CoalaFunctionalTests.release.xcconfig"; sourceTree = "<group>"; };
+		7CFA2847ED3BBAAECA214E16 /* Pods_Coala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B997ACA21BE6C5A005BE718 /* Coala+Ip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coala+Ip.swift"; sourceTree = "<group>"; };
 		8BD3EE0A2255B2E800E3395B /* SecurityLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityLayer.swift; sourceTree = "<group>"; };
 		8BF71931224A2C4400B2CFD7 /* Synchronized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synchronized.swift; sourceTree = "<group>"; };
+		8F8963A256BE2A5A09BF7004 /* Pods-Coala-CoalaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coala-CoalaTests.debug.xcconfig"; path = "Target Support Files/Pods-Coala-CoalaTests/Pods-Coala-CoalaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DBED7DF2D258A1698746FA9 /* Pods-Coala-CoalaIntegrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coala-CoalaIntegrationTests.release.xcconfig"; path = "Target Support Files/Pods-Coala-CoalaIntegrationTests/Pods-Coala-CoalaIntegrationTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0137EAFA8E5B865D23ADFD5 /* Pods-Coala-CoalaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coala-CoalaTests.release.xcconfig"; path = "Target Support Files/Pods-Coala-CoalaTests/Pods-Coala-CoalaTests.release.xcconfig"; sourceTree = "<group>"; };
+		E866EA082AEB3BAFD0F525B6 /* Pods-Coala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coala.release.xcconfig"; path = "Target Support Files/Pods-Coala/Pods-Coala.release.xcconfig"; sourceTree = "<group>"; };
+		FD01F2AFB92B308B9DDEF7BE /* Pods-Coala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coala.debug.xcconfig"; path = "Target Support Files/Pods-Coala/Pods-Coala.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				614C53351D8019A30093A099 /* Coala.framework in Frameworks */,
+				4F849B59A64FFEE72A7232D9 /* Pods_Coala_CoalaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				616FD1821F31CCD2000D0A14 /* Coala.framework in Frameworks */,
+				A3B71CCB6D6E1C7A7BD54BBA /* Pods_Coala_CoalaFunctionalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6167E3DE1DF84C72007B6014 /* Curve25519.framework in Frameworks */,
+				2F7DCCAF82FB74E091362072 /* Pods_Coala.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,12 +269,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				61EC15BC1E44B1B1000DD748 /* Coala.framework in Frameworks */,
+				F95EA7E546B647A37D2FFB01 /* Pods_Coala_CoalaIntegrationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B4A0835CE8537C13021FB78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA2847ED3BBAAECA214E16 /* Pods_Coala.framework */,
+				3C509FF1777CF1B0035B1CE3 /* Pods_Coala_CoalaFunctionalTests.framework */,
+				47DEA3167FE5683E1306E669 /* Pods_Coala_CoalaIntegrationTests.framework */,
+				05316AC89D647E259C83D264 /* Pods_Coala_CoalaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		610847711EFA4E8F00BBFC3B /* SwiftTryCatch */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +427,8 @@
 				616FD17E1F31CCD2000D0A14 /* CoalaFunctionalTests */,
 				61EC15B81E44B1B0000DD748 /* CoalaIntegrationTests */,
 				618F3FFD1D7DAA430081C9BC /* Products */,
+				7ABC966269B04FE16CE3818D /* Pods */,
+				1B4A0835CE8537C13021FB78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -489,6 +522,22 @@
 			path = CoalaIntegrationTests;
 			sourceTree = "<group>";
 		};
+		7ABC966269B04FE16CE3818D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD01F2AFB92B308B9DDEF7BE /* Pods-Coala.debug.xcconfig */,
+				E866EA082AEB3BAFD0F525B6 /* Pods-Coala.release.xcconfig */,
+				20F17EA1C857E46A761888BC /* Pods-Coala-CoalaFunctionalTests.debug.xcconfig */,
+				66E1F6D788D7F195AC1AFCA1 /* Pods-Coala-CoalaFunctionalTests.release.xcconfig */,
+				66A50D9174F4B3E99A241D19 /* Pods-Coala-CoalaIntegrationTests.debug.xcconfig */,
+				9DBED7DF2D258A1698746FA9 /* Pods-Coala-CoalaIntegrationTests.release.xcconfig */,
+				8F8963A256BE2A5A09BF7004 /* Pods-Coala-CoalaTests.debug.xcconfig */,
+				A0137EAFA8E5B865D23ADFD5 /* Pods-Coala-CoalaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -510,6 +559,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 614C533A1D8019A30093A099 /* Build configuration list for PBXNativeTarget "CoalaTests" */;
 			buildPhases = (
+				EB14372D59402EF51C6410AC /* [CP] Check Pods Manifest.lock */,
 				614C532C1D8019A30093A099 /* Sources */,
 				614C532D1D8019A30093A099 /* Frameworks */,
 				614C532E1D8019A30093A099 /* Resources */,
@@ -528,6 +578,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 616FD1851F31CCD2000D0A14 /* Build configuration list for PBXNativeTarget "CoalaFunctionalTests" */;
 			buildPhases = (
+				346A89148D2B5AC7060171E4 /* [CP] Check Pods Manifest.lock */,
 				616FD1791F31CCD2000D0A14 /* Sources */,
 				616FD17A1F31CCD2000D0A14 /* Frameworks */,
 				616FD17B1F31CCD2000D0A14 /* Resources */,
@@ -546,6 +597,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 618F40041D7DAA430081C9BC /* Build configuration list for PBXNativeTarget "Coala" */;
 			buildPhases = (
+				DF926AA092260D07409CBF88 /* [CP] Check Pods Manifest.lock */,
 				618F3FF91D7DAA430081C9BC /* Headers */,
 				618F3FF71D7DAA430081C9BC /* Sources */,
 				618F3FF81D7DAA430081C9BC /* Frameworks */,
@@ -565,6 +617,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61EC15C21E44B1B1000DD748 /* Build configuration list for PBXNativeTarget "CoalaIntegrationTests" */;
 			buildPhases = (
+				B5A2E608295BADA5B0B12D86 /* [CP] Check Pods Manifest.lock */,
 				61EC15B31E44B1B0000DD748 /* Sources */,
 				61EC15B41E44B1B0000DD748 /* Frameworks */,
 				61EC15B51E44B1B0000DD748 /* Resources */,
@@ -678,6 +731,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		346A89148D2B5AC7060171E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coala-CoalaFunctionalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		615A98731D7DADB30053DF30 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -691,6 +766,72 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		B5A2E608295BADA5B0B12D86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coala-CoalaIntegrationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF926AA092260D07409CBF88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coala-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB14372D59402EF51C6410AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coala-CoalaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -824,6 +965,7 @@
 /* Begin XCBuildConfiguration section */
 		614C53381D8019A30093A099 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F8963A256BE2A5A09BF7004 /* Pods-Coala-CoalaTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CoalaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -835,6 +977,7 @@
 		};
 		614C53391D8019A30093A099 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0137EAFA8E5B865D23ADFD5 /* Pods-Coala-CoalaTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CoalaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -846,6 +989,7 @@
 		};
 		616FD1861F31CCD2000D0A14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F17EA1C857E46A761888BC /* Pods-Coala-CoalaFunctionalTests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -862,6 +1006,7 @@
 		};
 		616FD1871F31CCD2000D0A14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E1F6D788D7F195AC1AFCA1 /* Pods-Coala-CoalaFunctionalTests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -987,6 +1132,7 @@
 		};
 		618F40051D7DAA430081C9BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD01F2AFB92B308B9DDEF7BE /* Pods-Coala.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1014,6 +1160,7 @@
 		};
 		618F40061D7DAA430081C9BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E866EA082AEB3BAFD0F525B6 /* Pods-Coala.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1039,6 +1186,7 @@
 		};
 		61EC15BF1E44B1B1000DD748 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A50D9174F4B3E99A241D19 /* Pods-Coala-CoalaIntegrationTests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEVELOPMENT_TEAM = HJGFC763W4;
@@ -1054,6 +1202,7 @@
 		};
 		61EC15C01E44B1B1000DD748 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DBED7DF2D258A1698746FA9 /* Pods-Coala-CoalaIntegrationTests.release.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEVELOPMENT_TEAM = HJGFC763W4;
